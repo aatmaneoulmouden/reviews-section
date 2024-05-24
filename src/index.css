@@ -9,3 +9,9 @@
         @apply font-poppins text-black bg-white;
     }
 }
+
+@layer components {
+    .star-icon {
+        @apply text-primary transition duration-150 ease-linear group-hover:text-hover;
+    }
+}
