@@ -29,7 +29,7 @@ const Reviews = () => {
   ];
 
   return (
-    <div className="reviews-wrapper grid grid-cols-3 gap-8 mt-24">
+    <div className="reviews-wrapper grid grid-cols-1 gap-y-24 mt-24 lg:gap-x-8 lg:grid-cols-3">
       {reviews.map((review, index) => (
         <SingleReview
           key={index}
